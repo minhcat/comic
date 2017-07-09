@@ -19,23 +19,26 @@
 		margin: auto;
 	}
 	header{
-		height: 300px;
 		background-color: red;
 	}
 	main{
-		height: 600px;
 		background-color: white;
 	}
 	footer{
-		height: 300px;
 		background-color: blue;
 	}
 	</style>
 </head>
 <body>
 	<div class="wrapper">
-		<header>header</header>
-		<main>main</main>
+		<header>
+			<div class="logo">Logo</div>
+			<nav>Menu</nav>
+		</header>
+		<main>
+			<div class="slide">Slide</div>
+			<div class="content">Content</div>
+		</main>
 		<footer>footer</footer>
 	</div>
 </body>
