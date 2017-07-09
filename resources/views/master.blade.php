@@ -122,7 +122,28 @@
 			</div>
 			<div class="content">Content</div>
 		</main>
-		<footer>footer</footer>
+		<footer>
+			<div class="row">
+				<div class="col-sm-4">
+					<h4>Title</h4>
+					<p class="">Info 1</p>
+					<p class="">Info 2</p>
+					<p class="">Info 2</p>
+				</div>
+				<div class="col-sm-4">
+					<h4>Link</h4>
+					<p class=""><a href="#" class="link">Link 1</a></p>
+					<p class=""><a href="#" class="link">Link 2</a></p>
+					<p class=""><a href="#" class="link">Link 3</a></p>
+				</div>
+				<div class="col-sm-4">
+					<h4>Title</h4>
+					<p class="">Info 1</p>
+					<p class="">Info 2</p>
+					<p class="">Info 3</p>
+				</div>
+			</div>
+		</footer>
 	</div>
 </body>
 </html>
