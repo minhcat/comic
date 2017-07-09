@@ -26,6 +26,42 @@
 	footer{
 		background-color: blue;
 	}
+	.navbar{
+		margin-bottom: 0;
+		border-radius: 0;
+		border: 0;
+	}
+	.navbar ul>li>a{
+		color: white !important;
+	}
+	.navbar li.dropdown ul.dropdown-menu{
+		border-radius: 0;
+		border-width: 0;
+	}
+	.navbar li.dropdown ul.dropdown-menu >li>a:hover{
+		background-color: #090;
+	}
+	.navbar li.dropdown ul.dropdown-menu >li>a:focus{
+		background-color: #090;
+	}
+	.navbar li.dropdown.open> a{
+		background-color: #090 ;
+	}
+	.navbar li.dropdown.open> a:hover{
+		background-color: #090 ;
+	}
+	.navbar li.dropdown.open> a:focus{
+		background-color: #090 ;
+	}
+	.navbar li.dropdown.open> ul{
+		background-color: #0b0;
+	}
+	.bg-green{
+		background-color: #0a0;
+	}
+	.right {
+		float: right;
+	}
 	</style>
 </head>
 <body>
