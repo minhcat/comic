@@ -81,7 +81,6 @@
 		color: white;
 	}
 	.topic-group{
-		height: 500px;
 		padding-right: 10px;
 		padding-left: 10px; 
 	}
@@ -92,7 +91,7 @@
 	}
 	.topic-title{
 		padding: 10px;
-		background-color: #0b0;
+		background-color: #0a0;
 		color: white;
 		width: 100px;
 		font-size: 16px;
@@ -102,8 +101,8 @@
 	}
 	.topic-title:after{
 		border: 18.5px solid transparent;
-		border-left-color: #0b0;
-		border-bottom-color: #0b0;
+		border-left-color: #0a0;
+		border-bottom-color: #0a0;
 		position: absolute;
 		top: 0;
 		left: 100%;
@@ -114,19 +113,18 @@
 		margin-right: -15px;
 	}
 	.aside-group{
-		height: 500px;
 		padding-right: 10px;
 		padding-left: 10px;
 	}
 	.aside{
 		margin-top: 10px;
 		margin-bottom: 10px;
-		border: 1px solid #0b0;
+		border: 1px solid #0a0;
 	}
 	.aside-header{
 		padding: 10px;
 		color: white;
-		background-color: #0b0;
+		background-color: #0a0;
 	}
 	.aside-content{
 		padding-top: 10px;
@@ -287,6 +285,63 @@
 							</div>
 						</div>
 					</div>
+
+					<div class="topic">
+						<div class="topic-header">
+							<h4 class="topic-title">Topic Title</h4>
+						</div>
+						<div class="topic-content row">
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+						</div>
+					</div>
+
 				</div>
 				<div class="aside-group col-md-3">
 					<div class="aside">
@@ -327,6 +382,40 @@
 							</div>
 							<div class="col-md-4">
 								<label><input type="checkbox" name=""/> type 1</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="aside">
+						<div class="aside-header">Aside Title</div>
+						<div class="aside-content">
+							<div class="aside-item row">
+								<div class="col-md-3"><img src="image/45x60.png"></div>
+								<div class="col-sm-9">
+									<p>Book name sed do eiusmod tempor</p>
+									<p>info Ut enim ad minim veniam</p>
+								</div>
+							</div>
+							<div class="aside-item row">
+								<div class="col-md-3"><img src="image/45x60.png"></div>
+								<div class="col-sm-9">
+									<p>Book name sed do eiusmod tempor</p>
+									<p>info Ut enim ad minim veniam</p>
+								</div>
+							</div>
+							<div class="aside-item row">
+								<div class="col-md-3"><img src="image/45x60.png"></div>
+								<div class="col-sm-9">
+									<p>Book name sed do eiusmod tempor</p>
+									<p>info Ut enim ad minim veniam</p>
+								</div>
+							</div>
+							<div class="aside-item row">
+								<div class="col-md-3"><img src="image/45x60.png"></div>
+								<div class="col-sm-9">
+									<p>Book name sed do eiusmod tempor</p>
+									<p>info Ut enim ad minim veniam</p>
+								</div>
 							</div>
 						</div>
 					</div>
