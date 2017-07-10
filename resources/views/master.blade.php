@@ -80,6 +80,14 @@
 	.link:focus{
 		color: white;
 	}
+	.topic-group{
+		background-color: #0b4;
+		height: 500px;
+	}
+	.aside-group{
+		background-color: #4b0;
+		height: 500px;
+	}
 	</style>
 </head>
 <body>
@@ -174,7 +182,10 @@
 				</div>
 
 			</div>
-			<div class="content">Content</div>
+			<div class="content row">
+				<div class="topic-group col-md-9">topic</div>
+				<div class="aside-group col-md-3">aside</div>
+			</div>
 		</main>
 		<footer class="row bg-green color-white">
 			<div class="col-md-4">
