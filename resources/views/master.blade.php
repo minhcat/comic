@@ -134,6 +134,10 @@
 		padding-right: 10px;
 		padding-left: 10px;
 	}
+	.aside-comment{
+		padding-right: 10px;
+		padding-left: 10px;
+	}
 	</style>
 </head>
 <body>
@@ -419,6 +423,28 @@
 							</div>
 						</div>
 					</div>
+
+					<div class="aside">
+						<div class="aside-header">Aside Title</div>
+						<div class="aside-content">
+							<div class="aside-comment">
+								<p><a href="">user 1 sint occae cupida</a> on <a href="">link lorem ipsum dolor sit amet</a></p>
+							</div>
+							<div class="aside-comment">
+								<p><a href="">user 1 sint occae cupida</a> on <a href="">link lorem ipsum dolor sit amet</a></p>
+							</div>
+							<div class="aside-comment">
+								<p><a href="">user 1 sint occae cupida</a> on <a href="">link lorem ipsum dolor sit amet</a></p>
+							</div>
+							<div class="aside-comment">
+								<p><a href="">user 1 sint occae cupida</a> on <a href="">link lorem ipsum dolor sit amet</a></p>
+							</div>
+							<div class="aside-comment">
+								<p><a href="">user 1 sint occae cupida</a> on <a href="">link lorem ipsum dolor sit amet</a></p>
+							</div>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</main>
