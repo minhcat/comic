@@ -114,8 +114,25 @@
 		margin-right: -15px;
 	}
 	.aside-group{
-		background-color: #4b0;
 		height: 500px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	.aside{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		border: 1px solid #0b0;
+	}
+	.aside-header{
+		padding: 10px;
+		color: white;
+		background-color: #0b0;
+	}
+	.aside-content{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.aside-content .col-md-4{
 		padding-right: 10px;
 		padding-left: 10px;
 	}
@@ -271,7 +288,49 @@
 						</div>
 					</div>
 				</div>
-				<div class="aside-group col-md-3">aside</div>
+				<div class="aside-group col-md-3">
+					<div class="aside">
+						<div class="aside-header">Aside Title</div>
+						<div class="aside-content row">
+							<div class="col-md-4">
+								<label><input type="checkbox" name=""/> type 1</label>
+							</div>
+							<div class="col-md-4">
+								<label><input type="checkbox" name=""/> type 1</label>
+							</div>
+							<div class="col-md-4">
+								<label><input type="checkbox" name=""/> type 1</label>
+							</div>
+							<div class="col-md-4">
+								<label><input type="checkbox" name=""/> type 1</label>
+							</div>
+							<div class="col-md-4">
+								<label><input type="checkbox" name=""/> type 1</label>
+							</div>
+							<div class="col-md-4">
+								<label><input type="checkbox" name=""/> type 1</label>
+							</div>
+							<div class="col-md-4">
+								<label><input type="checkbox" name=""/> type 1</label>
+							</div>
+							<div class="col-md-4">
+								<label><input type="checkbox" name=""/> type 1</label>
+							</div>
+							<div class="col-md-4">
+								<label><input type="checkbox" name=""/> type 1</label>
+							</div>
+							<div class="col-md-4">
+								<label><input type="checkbox" name=""/> type 1</label>
+							</div>
+							<div class="col-md-4">
+								<label><input type="checkbox" name=""/> type 1</label>
+							</div>
+							<div class="col-md-4">
+								<label><input type="checkbox" name=""/> type 1</label>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</main>
 		<footer class="row bg-green color-white">
