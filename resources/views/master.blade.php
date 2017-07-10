@@ -62,6 +62,24 @@
 	.right {
 		float: right;
 	}
+	.row{
+		margin: 0;
+	}
+	.color-white{
+		color: white;
+	}
+	.line-section{
+		border-bottom: solid 2px rgba(0,255,0,0.6);
+	}
+	.link{
+		color: white;
+	}
+	.link:hover{
+		color: white;
+	}
+	.link:focus{
+		color: white;
+	}
 	</style>
 </head>
 <body>
@@ -158,26 +176,24 @@
 			</div>
 			<div class="content">Content</div>
 		</main>
-		<footer>
-			<div class="row">
-				<div class="col-sm-4">
-					<h4>Title</h4>
-					<p class="">Info 1</p>
-					<p class="">Info 2</p>
-					<p class="">Info 2</p>
-				</div>
-				<div class="col-sm-4">
-					<h4>Link</h4>
-					<p class=""><a href="#" class="link">Link 1</a></p>
-					<p class=""><a href="#" class="link">Link 2</a></p>
-					<p class=""><a href="#" class="link">Link 3</a></p>
-				</div>
-				<div class="col-sm-4">
-					<h4>Title</h4>
-					<p class="">Info 1</p>
-					<p class="">Info 2</p>
-					<p class="">Info 3</p>
-				</div>
+		<footer class="row bg-green color-white">
+			<div class="col-md-4">
+				<h4 class="line-section">Title</h4>
+				<p class="">Info 1</p>
+				<p class="">Info 2</p>
+				<p class="">Info 2</p>
+			</div>
+			<div class="col-md-4">
+				<h4 class="line-section">Link</h4>
+				<p class=""><a href="#" class="link">Link 1</a></p>
+				<p class=""><a href="#" class="link">Link 2</a></p>
+				<p class=""><a href="#" class="link">Link 3</a></p>
+			</div>
+			<div class="col-md-4">
+				<h4 class="line-section">Title</h4>
+				<p class="">Info 1</p>
+				<p class="">Info 2</p>
+				<p class="">Info 3</p>
 			</div>
 		</footer>
 	</div>
