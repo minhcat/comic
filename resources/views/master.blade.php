@@ -12,7 +12,7 @@
 	<style type="text/css">
 	body{
 		margin: 0px;
-		background-color: gray;
+		background-color: #d1d1d1;
 	}
 	.wrapper{
 		width: 1020px;
@@ -157,6 +157,18 @@
 		padding-left: 0;
 		padding-right: 0;
 	}
+	.fixed-top{
+		position: fixed;
+		top: 0;
+		left: 0;
+		display: block;
+		z-index: 20;
+		width: 100%;
+	}
+	.width-page{
+		width: 1000px;
+		margin: auto;
+	}
 	</style>
 
 	<script type="text/javascript" src="jquery/jquery-3.2.1.min.js"></script>
@@ -164,6 +176,16 @@
 	<script type="text/javascript">
 	$(document).ready(function(){
 		$(".topic-content h5").dotdotdot();
+
+		$(window).scroll(function(){
+			if ($(this).scrollTop()>200){
+				$("#nav").addClass("fixed-top");
+				$("#navbar").addClass("width-page");
+			}else{
+				$("#nav").removeClass("fixed-top");
+				$("#navbar").removeClass("width-page");
+			}
+		});
 	});
 	</script>
 </head>
