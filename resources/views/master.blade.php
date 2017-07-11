@@ -133,6 +133,12 @@
 		padding-right: 0px;
 		padding-left: 0px;
 	}
+	.aside-item .name{
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		margin-bottom: 0;
+	}
 	.line-section2{
 		border-bottom: 1px solid rgba(0,175,0,0.6);
 	}
@@ -480,31 +486,31 @@
 						<div class="aside-header">Aside Title</div>
 						<div class="aside-content">
 							<div class="aside-item row">
-								<div class="col-md-3 padding-lr0"><img src="image/45x60.png"></div>
+								<div class="col-md-3 padding-lr0"><a href="#"><img src="image/45x60.png"></a></div>
 								<div class="col-sm-9 padding-lr0">
-									<p>Book name sed do eiusmod tempor</p>
-									<p>info Ut enim ad minim veniam</p>
+									<p class="name"><a href="#">Book name sed do eiusmod tempor</a></p>
+									<p class="info">info Ut enim ad minim veniam</p>
 								</div>
 							</div>
 							<div class="aside-item row">
-								<div class="col-md-3 padding-lr0"><img src="image/45x60.png"></div>
+								<div class="col-md-3 padding-lr0"><a href="#"><img src="image/45x60.png"></a></div>
 								<div class="col-sm-9 padding-lr0">
-									<p>Book name sed do eiusmod tempor</p>
-									<p>info Ut enim ad minim veniam</p>
+									<p class="name"><a href="#">Book name sed do eiusmod tempor</a></p>
+									<p class="info">info Ut enim ad minim veniam</p>
 								</div>
 							</div>
 							<div class="aside-item row">
-								<div class="col-md-3 padding-lr0"><img src="image/45x60.png"></div>
+								<div class="col-md-3 padding-lr0"><a href="#"><img src="image/45x60.png"></a></div>
 								<div class="col-sm-9 padding-lr0">
-									<p>Book name sed do eiusmod tempor</p>
-									<p>info Ut enim ad minim veniam</p>
+									<p class="name"><a href="#">Book name sed do eiusmod tempor</a></p>
+									<p class="info">info Ut enim ad minim veniam</p>
 								</div>
 							</div>
 							<div class="aside-item row">
-								<div class="col-md-3 padding-lr0"><img src="image/45x60.png"></div>
+								<div class="col-md-3 padding-lr0"><a href="#"><img src="image/45x60.png"></a></div>
 								<div class="col-sm-9 padding-lr0">
-									<p>Book name sed do eiusmod tempor</p>
-									<p>info Ut enim ad minim veniam</p>
+									<p class="name"><a href="#">Book name sed do eiusmod tempor</a></p>
+									<p class="info">info Ut enim ad minim veniam</p>
 								</div>
 							</div>
 						</div>
