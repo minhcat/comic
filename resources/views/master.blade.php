@@ -112,6 +112,13 @@
 		margin-left: -15px;
 		margin-right: -15px;
 	}
+	.topic-content h5{
+		overflow: hidden;
+		max-height: 30px;
+		text-overflow: ellipsis;
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
 	.aside-group{
 		padding-right: 10px;
 		padding-left: 10px;
@@ -151,6 +158,14 @@
 		padding-right: 0;
 	}
 	</style>
+
+	<script type="text/javascript" src="jquery/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="jquery/jquery.dotdotdot.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$(".topic-content h5").dotdotdot();
+	});
+	</script>
 </head>
 <body>
 	<div class="wrapper">
@@ -489,28 +504,28 @@
 								<div class="col-md-3 padding-lr0"><a href="#"><img src="image/45x60.png"></a></div>
 								<div class="col-sm-9 padding-lr0">
 									<p class="name"><a href="#">Book name sed do eiusmod tempor</a></p>
-									<p class="info">info Ut enim ad minim veniam</p>
+									<p class="info">info ut enim ad minim veniam</p>
 								</div>
 							</div>
 							<div class="aside-item row">
 								<div class="col-md-3 padding-lr0"><a href="#"><img src="image/45x60.png"></a></div>
 								<div class="col-sm-9 padding-lr0">
 									<p class="name"><a href="#">Book name sed do eiusmod tempor</a></p>
-									<p class="info">info Ut enim ad minim veniam</p>
+									<p class="info">info ut enim ad minim veniam</p>
 								</div>
 							</div>
 							<div class="aside-item row">
 								<div class="col-md-3 padding-lr0"><a href="#"><img src="image/45x60.png"></a></div>
 								<div class="col-sm-9 padding-lr0">
 									<p class="name"><a href="#">Book name sed do eiusmod tempor</a></p>
-									<p class="info">info Ut enim ad minim veniam</p>
+									<p class="info">info ut enim ad minim veniam</p>
 								</div>
 							</div>
 							<div class="aside-item row">
 								<div class="col-md-3 padding-lr0"><a href="#"><img src="image/45x60.png"></a></div>
 								<div class="col-sm-9 padding-lr0">
 									<p class="name"><a href="#">Book name sed do eiusmod tempor</a></p>
-									<p class="info">info Ut enim ad minim veniam</p>
+									<p class="info">info ut enim ad minim veniam</p>
 								</div>
 							</div>
 						</div>
