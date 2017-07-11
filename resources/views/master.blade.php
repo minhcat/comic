@@ -133,16 +133,16 @@
 		padding-right: 0px;
 		padding-left: 0px;
 	}
-	.aside-comment{
-		padding-right: 10px;
-		padding-left: 10px;
-	}
 	.line-section2{
 		border-bottom: 1px solid rgba(0,175,0,0.6);
 	}
 	.padding-lr1{
 		padding-left: 10px;
 		padding-right: 10px;
+	}
+	.padding-lr0{
+		padding-left: 0;
+		padding-right: 0;
 	}
 	</style>
 </head>
@@ -352,6 +352,62 @@
 						</div>
 					</div>
 
+					<div class="topic">
+						<div class="topic-header">
+							<h4 class="topic-title">Topic Title</h4>
+						</div>
+						<div class="topic-content row">
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+							<div class="col-md-2">
+								<img src="image/90x120.png">
+								<h5>Book name sed do eiusmod tempor</h5>
+							</div>
+						</div>
+					</div>
+					
 				</div>
 				<div class="aside-group col-md-3">
 					<div class="aside">
@@ -424,29 +480,29 @@
 						<div class="aside-header">Aside Title</div>
 						<div class="aside-content">
 							<div class="aside-item row">
-								<div class="col-md-3"><img src="image/45x60.png"></div>
-								<div class="col-sm-9">
+								<div class="col-md-3 padding-lr0"><img src="image/45x60.png"></div>
+								<div class="col-sm-9 padding-lr0">
 									<p>Book name sed do eiusmod tempor</p>
 									<p>info Ut enim ad minim veniam</p>
 								</div>
 							</div>
 							<div class="aside-item row">
-								<div class="col-md-3"><img src="image/45x60.png"></div>
-								<div class="col-sm-9">
+								<div class="col-md-3 padding-lr0"><img src="image/45x60.png"></div>
+								<div class="col-sm-9 padding-lr0">
 									<p>Book name sed do eiusmod tempor</p>
 									<p>info Ut enim ad minim veniam</p>
 								</div>
 							</div>
 							<div class="aside-item row">
-								<div class="col-md-3"><img src="image/45x60.png"></div>
-								<div class="col-sm-9">
+								<div class="col-md-3 padding-lr0"><img src="image/45x60.png"></div>
+								<div class="col-sm-9 padding-lr0">
 									<p>Book name sed do eiusmod tempor</p>
 									<p>info Ut enim ad minim veniam</p>
 								</div>
 							</div>
 							<div class="aside-item row">
-								<div class="col-md-3"><img src="image/45x60.png"></div>
-								<div class="col-sm-9">
+								<div class="col-md-3 padding-lr0"><img src="image/45x60.png"></div>
+								<div class="col-sm-9 padding-lr0">
 									<p>Book name sed do eiusmod tempor</p>
 									<p>info Ut enim ad minim veniam</p>
 								</div>
