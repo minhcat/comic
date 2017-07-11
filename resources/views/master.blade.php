@@ -127,16 +127,22 @@
 		background-color: #0a0;
 	}
 	.aside-content{
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding: 10px;
 	}
 	.aside-content .col-md-4{
-		padding-right: 10px;
-		padding-left: 10px;
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 	.aside-comment{
 		padding-right: 10px;
 		padding-left: 10px;
+	}
+	.line-section2{
+		border-bottom: 1px solid rgba(0,175,0,0.6);
+	}
+	.padding-lr1{
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	</style>
 </head>
@@ -350,42 +356,66 @@
 				<div class="aside-group col-md-3">
 					<div class="aside">
 						<div class="aside-header">Aside Title</div>
-						<div class="aside-content row">
-							<div class="col-md-4">
-								<label><input type="checkbox" name=""/> type 1</label>
+						<div class="aside-content">
+							<p class="line-section2">type</p>
+							<div class="row">
+								<div class="col-md-4">
+									<label><input type="checkbox" name=""/> type 1</label>
+								</div>
+								<div class="col-md-4">
+									<label><input type="checkbox" name=""/> type 1</label>
+								</div>
+								<div class="col-md-4">
+									<label><input type="checkbox" name=""/> type 1</label>
+								</div>
+								<div class="col-md-4">
+									<label><input type="checkbox" name=""/> type 1</label>
+								</div>
+								<div class="col-md-4">
+									<label><input type="checkbox" name=""/> type 1</label>
+								</div>
+								<div class="col-md-4">
+									<label><input type="checkbox" name=""/> type 1</label>
+								</div>
+								<div class="col-md-4">
+									<label><input type="checkbox" name=""/> type 1</label>
+								</div>
+								<div class="col-md-4">
+									<label><input type="checkbox" name=""/> type 1</label>
+								</div>
+								<div class="col-md-4">
+									<label><input type="checkbox" name=""/> type 1</label>
+								</div>
+								<div class="col-md-4">
+									<label><input type="checkbox" name=""/> type 1</label>
+								</div>
+								<div class="col-md-4">
+									<label><input type="checkbox" name=""/> type 1</label>
+								</div>
+								<div class="col-md-4">
+									<label><input type="checkbox" name=""/> type 1</label>
+								</div>
 							</div>
-							<div class="col-md-4">
-								<label><input type="checkbox" name=""/> type 1</label>
-							</div>
-							<div class="col-md-4">
-								<label><input type="checkbox" name=""/> type 1</label>
-							</div>
-							<div class="col-md-4">
-								<label><input type="checkbox" name=""/> type 1</label>
-							</div>
-							<div class="col-md-4">
-								<label><input type="checkbox" name=""/> type 1</label>
-							</div>
-							<div class="col-md-4">
-								<label><input type="checkbox" name=""/> type 1</label>
-							</div>
-							<div class="col-md-4">
-								<label><input type="checkbox" name=""/> type 1</label>
-							</div>
-							<div class="col-md-4">
-								<label><input type="checkbox" name=""/> type 1</label>
-							</div>
-							<div class="col-md-4">
-								<label><input type="checkbox" name=""/> type 1</label>
-							</div>
-							<div class="col-md-4">
-								<label><input type="checkbox" name=""/> type 1</label>
-							</div>
-							<div class="col-md-4">
-								<label><input type="checkbox" name=""/> type 1</label>
-							</div>
-							<div class="col-md-4">
-								<label><input type="checkbox" name=""/> type 1</label>
+							<p class="line-section2">type</p>
+							<div class="row">
+								<div class="col-md-4">
+									<label><input type="radio" name=""/> type 1</label>
+								</div>
+								<div class="col-md-4">
+									<label><input type="radio" name=""/> type 1</label>
+								</div>
+								<div class="col-md-4">
+									<label><input type="radio" name=""/> type 1</label>
+								</div>
+								<div class="col-md-4">
+									<label><input type="radio" name=""/> type 1</label>
+								</div>
+								<div class="col-md-4">
+									<label><input type="radio" name=""/> type 1</label>
+								</div>
+								<div class="col-md-4">
+									<label><input type="radio" name=""/> type 1</label>
+								</div>
 							</div>
 						</div>
 					</div>
