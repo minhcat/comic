@@ -166,7 +166,7 @@
 		width: 100%;
 	}
 	.width-page{
-		width: 1000px;
+		width: 1020px;
 		margin: auto;
 	}
 	</style>
@@ -178,7 +178,7 @@
 		$(".topic-content h5").dotdotdot();
 
 		$(window).scroll(function(){
-			if ($(this).scrollTop()>200){
+			if ($(this).scrollTop()>100){
 				$("#nav").addClass("fixed-top");
 				$("#navbar").addClass("width-page");
 			}else{
