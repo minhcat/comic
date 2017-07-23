@@ -48,14 +48,30 @@
 							<li class=""><a class="page5" href="">Menu 4</a></li>
 							<li class="dropdown">
 								<a class="page6" href="#" class="dropdown-toggle" data-toggle="dropdown">Menu 5 <span class="caret"></span></a>
-								<ul class="dropdown-menu bg-blue padding-tb0">
-									<li><a href="" class="">Submenu 1</a></li>
-									<li><a href="" class="">Submenu 2</a></li>
-									<li><a href="" class="">Submenu 3</a></li>
-									<li><a href="" class="">Submenu 1</a></li>
-									<li><a href="" class="">Submenu 2</a></li>
-									<li><a href="" class="">Submenu 3</a></li>
-								</ul>
+								<div class="dropdown-menu bg-green padding-tb0 multi-menu">
+									<div class="row">
+										<div class="col-md-3 padding-tb1"><a href="" class="">Submenu 1</a></div>
+										<div class="col-md-3 padding-tb1"><a href="" class="">Submenu 2</a></div>
+										<div class="col-md-3 padding-tb1"><a href="" class="">Submenu 3</a></div>
+										<div class="col-md-3 padding-tb1"><a href="" class="">Submenu 4</a></div>
+										<div class="col-md-3 padding-tb1"><a href="" class="">Submenu 5</a></div>
+										<div class="col-md-3 padding-tb1"><a href="" class="">Submenu 6</a></div>
+										<div class="col-md-3 padding-tb1"><a href="" class="">Submenu 7</a></div>
+										<div class="col-md-3 padding-tb1"><a href="" class="">Submenu 8</a></div>
+										<div class="col-md-3 padding-tb1"><a href="" class="">Submenu 9</a></div>
+										<div class="col-md-3 padding-tb1"><a href="" class="">Submenu 10</a></div>
+										<div class="col-md-3 padding-tb1"><a href="" class="">Submenu 11</a></div>
+										<div class="col-md-3 padding-tb1"><a href="" class="">Submenu 12</a></div>
+										<div class="col-md-3 padding-tb1"><a href="" class="">Submenu 13</a></div>
+										<div class="col-md-3 padding-tb1"><a href="" class="">Submenu 14</a></div>
+										<div class="col-md-3 padding-tb1"><a href="" class="">Submenu 15</a></div>
+										<div class="col-md-3 padding-tb1"><a href="" class="">Submenu 16</a></div>
+										<div class="col-md-3 padding-tb1"><a href="" class="">Submenu 17</a></div>
+										<div class="col-md-3 padding-tb1"><a href="" class="">Submenu 18</a></div>
+										<div class="col-md-3 padding-tb1"><a href="" class="">Submenu 19</a></div>
+										<div class="col-md-3 padding-tb1"><a href="" class="">Submenu 20</a></div>
+									</div>
+								</div>
 							</li>
 							<li class="dropdown">
 								<a class="page7" href="#" class="dropdown-toggle" data-toggle="dropdown">Menu 6 <span class="caret"></span></a>
